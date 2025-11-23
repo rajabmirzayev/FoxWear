@@ -1,0 +1,69 @@
+.offer {
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    top: 0;
+    padding: 0 50px;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.offer .social-media {
+    margin-right: auto;
+}
+
+.offer .social-media .text {
+    font-size: 11px;
+    color: #fff;
+}
+
+
+.offer .social-media .social-media-icons .icon a i {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: var(--main-color);
+    font-size: 13px;
+}
+
+.offer .social-media .social-media-icons .facebook a i {
+    padding-top: 3px;
+}
+
+.offer .text-discount {
+    position: absolute;
+}
+
+.offer .text-discount a {
+    font-size: 11px;
+    color: #fff;
+}
+
+.offer .contact-information {
+    color: #fff;
+    margin-left: auto;
+}
+
+.offer .contact-information .icon {
+    width: 20px;
+    height: 20px;
+}
+
+.offer .contact-information .text {
+    font-size: 11px;
+}
+
+@media (max-width: 950px) {
+    .offer .contact-information {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .offer .social-media {
+        display: none;
+    }
+}
