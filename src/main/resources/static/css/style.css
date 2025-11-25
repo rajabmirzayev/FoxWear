@@ -10,7 +10,8 @@
     --offer-height: 30px;
     --left-bar-width: 230px;
     --main-color: rgb(74, 53, 44);
-    --secondary-color: rgb(217, 217, 217);
+    --secondary-color: rgb(186, 186, 186);
+    --product-width: 250px;
 }
 
 body {
@@ -59,7 +60,7 @@ a {
     border-radius: 40px;
     font-weight: 600;
     font-size: 15px;
-    transition: 0.3s all cubic-bezier(.2,.7,.2,1);
+    transition: 0.3s all cubic-bezier(.2, .7, .2, 1);
 }
 
 .main-button a {
@@ -82,4 +83,93 @@ a {
 .secondary-button a:hover {
     background-color: transparent;
     color: var(--secondary-color);
+}
+
+/*PRODUCT ITEM*/
+.product {
+    min-width: var(--product-width);
+}
+
+.product .image {
+    width: 100%;
+    height: 250px;
+    background-color: #a5a5a5;
+}
+
+.product .texts {
+    align-items: start;
+}
+
+.product .texts .text {
+    align-items: start;
+}
+
+.product .texts .text .header {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.product .texts .price {
+    margin-left: auto;
+    align-items: end;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.product .texts .price .old-price {
+    color: #777777;
+    text-decoration: line-through;
+}
+
+.product .buttons {
+    width: 100%;
+    display: flex;
+}
+
+.product .buttons .like-button,
+.product .buttons .add-to-cart {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    padding: 12px 10px;
+    border-radius: 23px;
+    white-space: nowrap;
+}
+
+.product .buttons .like-button {
+    width: 46px;
+    display: flex;
+    overflow: hidden;
+    justify-content: start;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    margin-right: auto;
+}
+
+.product .buttons .like-button:hover {
+    width: 150px;
+}
+
+.product .buttons .like-button:hover ~ .add-to-cart {
+    width: 48px;
+}
+
+.product .buttons .add-to-cart .icon i,
+.product .buttons .like-button .icon i {
+    font-size: 20px;
+}
+
+.product .buttons .add-to-cart {
+    width: 160px;
+    display: flex;
+    justify-content: right;
+    border: 2px solid var(--main-color);
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.product .buttons .add-to-cart:hover {
+    background-color: var(--secondary-color);
+    color: var(--main-color);
 }
