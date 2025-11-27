@@ -1,0 +1,26 @@
+.content-homepage .content-about-us {
+    gap: 100px;
+}
+
+.content-homepage .content-about-us .about-us-text {
+    align-items: start;
+}
+
+.content-homepage .content-about-us .about-us-text .subtitle p {
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.content-homepage .content-about-us .about-us-picture {
+    height: 100%;
+}
+
+.content-homepage .content-about-us .about-us-picture .image {
+    width: 600px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content-homepage .content-about-us .about-us-picture .image img {
+    width: inherit;
+}

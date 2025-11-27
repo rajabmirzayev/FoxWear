@@ -1,3 +1,12 @@
+.menu-bar,
+.offer {
+    z-index: 999;
+}
+
+#login-popup {
+    z-index: 1000;
+}
+
 .menu-bar {
     position: fixed;
     width: 100%;

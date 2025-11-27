@@ -1,11 +1,4 @@
-.content-homepage .content {
-    padding: 50px;
-    align-items: start;
-    gap: 70px;
-}
-
 .content-homepage .content-start {
-    height: 750px;
     background-image: url("../../../images/main/homepage-main-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;

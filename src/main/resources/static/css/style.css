@@ -202,3 +202,16 @@ a {
 .visit-link a:hover svg {
     transform: translateX(5px);
 }
+
+.content-body {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.content-body .content {
+    width: 100%;
+    height: 750px;
+    padding: 50px;
+    align-items: start;
+}
