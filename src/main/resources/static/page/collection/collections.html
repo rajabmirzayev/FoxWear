@@ -18,13 +18,74 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/page/collections/content-start.css">
+    <link rel="stylesheet" href="/css/page/collections/content-collections.css">
 </head>
 <body>
 
 <div id="header"></div>
 
-<div class="content-products content-body flex-column-gap-0">
+<div class="content-collections content-body flex-column-gap-0">
+    <div class="content-start content flex-column-gap-0">
+        <div class="texts flex-column-gap-10">
+            <div class="title">
+                <p>Explore our Collections</p>
+            </div>
+            <div class="subtitle">
+                <p>New styles for every season.</p>
+            </div>
+        </div>
+        <div class="link">
+            <div class="visit-link">
+                <a href="#collections"></a>
+            </div>
+        </div>
+    </div>
+    <div class="content-collections" id="collections">
+        <div class="collections-wrapper">
+            <div class="category-item men">
+                <div class="title">Men</div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
 
+            <div class="category-item summer">
+                <div class="title">Summer</div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+
+            <div class="category-item winter">
+                <div class="title">Winter</div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+
+            <div class="category-item women">
+                <div class="title">Women</div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+
+            <div class="category-item accessories">
+                <div class="title">Accessories</div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+
+            <div class="category-item sport">
+                <div class="title">Sport</div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div id="footer"></div>
@@ -34,5 +95,6 @@
 <script src="/js/partials/header/link.js"></script>
 <script src="/js/partials/header/login.js"></script>
 <script src="/js/partials/header/left-bar-controller.js"></script>
+<script src="/js/pages/collections/category-link-controller.js"></script>
 </body>
 </html>

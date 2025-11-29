@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="feat: add products.html content">
+    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="ui: change code structure in all pages">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/collections/content-collections.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/collections/content-start.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/collections/category-link-controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/accessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/main/category-page-hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/main/category-page-hero.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/collections.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/collections.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/men.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/men.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/sport.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/sport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/summer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/summer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +153,8 @@
       <workItem from="1764112564017" duration="7318000" />
       <workItem from="1764170565838" duration="18116000" />
       <workItem from="1764246254015" duration="13135000" />
-      <workItem from="1764420598577" duration="5085000" />
+      <workItem from="1764420598577" duration="11845000" />
+      <workItem from="1764445494022" duration="2906000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added files, pictures, directories&#10;Added header.html for all pages">
       <option name="closed" value="true" />
@@ -258,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764437932447</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ui: change code structure in all pages">
+      <option name="closed" value="true" />
+      <created>1764438679133</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1764438679133</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +286,7 @@
     <MESSAGE value="Homepage edit&#10;added about us content&#10;added contact content" />
     <MESSAGE value="Homepage edit&#10;added review content&#10;changed about us text content&#10;Homepage already ready" />
     <MESSAGE value="feat: add products.html content" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add products.html content" />
+    <MESSAGE value="ui: change code structure in all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="ui: change code structure in all pages" />
   </component>
 </project>

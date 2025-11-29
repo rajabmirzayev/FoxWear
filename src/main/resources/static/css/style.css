@@ -193,6 +193,7 @@ a {
     font-size: 22px;
     font-style: italic;
     margin-bottom: 50px;
+    text-shadow: 0 0 15px rgba(0,0,0,0.5);
     transition: 0.3s all cubic-bezier(.2, .7, .2, 1);
 }
 
