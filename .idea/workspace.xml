@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="Homepage edit&#10;added review content&#10;changed about us text content&#10;Homepage already ready">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/products/content-products.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/products/content-see-more.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/products/content-start.css" afterDir="false" />
+    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="feat: add products.html content">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-about-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-about-us.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-start.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/homepage/content-start.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/accessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/collections.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/collections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/men.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/men.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/sport.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/sport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/summer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/summer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +152,7 @@
       <workItem from="1764112564017" duration="7318000" />
       <workItem from="1764170565838" duration="18116000" />
       <workItem from="1764246254015" duration="13135000" />
-      <workItem from="1764420598577" duration="4487000" />
+      <workItem from="1764420598577" duration="5085000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added files, pictures, directories&#10;Added header.html for all pages">
       <option name="closed" value="true" />
@@ -252,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764336349055</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: add products.html content">
+      <option name="closed" value="true" />
+      <created>1764437932447</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1764437932447</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +275,7 @@
     <MESSAGE value="Homepage edit&#10;added categories content&#10;added some functionalities&#10;fixed some bugs" />
     <MESSAGE value="Homepage edit&#10;added about us content&#10;added contact content" />
     <MESSAGE value="Homepage edit&#10;added review content&#10;changed about us text content&#10;Homepage already ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homepage edit&#10;added review content&#10;changed about us text content&#10;Homepage already ready" />
+    <MESSAGE value="feat: add products.html content" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add products.html content" />
   </component>
 </project>
