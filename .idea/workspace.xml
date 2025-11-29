@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="ui: change code structure in all pages">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/collections/content-collections.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/collections/content-start.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/collections/category-link-controller.js" afterDir="false" />
+    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="ui: add text color to collections title">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/collections/content-streetwear-collection.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/collections/streetwear-collection-link-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/streetwear.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/main/category-page-hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/main/category-page-hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/page/collections/content-collections.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/collections/content-collections.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/main/streetwear-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/main/streetwear-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/main/streetwear-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/main/streetwear-2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/collections.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/collections.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/men.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/men.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/summer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/summer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +29,8 @@
       <list>
         <option value="Class" />
         <option value="Enum" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -154,7 +153,7 @@
       <workItem from="1764170565838" duration="18116000" />
       <workItem from="1764246254015" duration="13135000" />
       <workItem from="1764420598577" duration="11845000" />
-      <workItem from="1764445494022" duration="2906000" />
+      <workItem from="1764445494022" duration="5123000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added files, pictures, directories&#10;Added header.html for all pages">
       <option name="closed" value="true" />
@@ -268,7 +267,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764438679133</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: add collections grid in collections.html">
+      <option name="closed" value="true" />
+      <created>1764448498940</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1764448498940</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ui: add text color to collections title">
+      <option name="closed" value="true" />
+      <created>1764448690769</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1764448690769</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +302,8 @@
     <MESSAGE value="Homepage edit&#10;added review content&#10;changed about us text content&#10;Homepage already ready" />
     <MESSAGE value="feat: add products.html content" />
     <MESSAGE value="ui: change code structure in all pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="ui: change code structure in all pages" />
+    <MESSAGE value="feat: add collections grid in collections.html" />
+    <MESSAGE value="ui: add text color to collections title" />
+    <option name="LAST_COMMIT_MESSAGE" value="ui: add text color to collections title" />
   </component>
 </project>

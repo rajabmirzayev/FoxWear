@@ -1,0 +1,77 @@
+.content-collections .content-streetwear-collections {
+    width: 100%;
+    padding: 0 !important;
+    height: auto;
+    margin-top: 50px;
+}
+
+.content-collections .content-streetwear-collections .header {
+    width: 100%;
+    padding: 0 50px;
+}
+
+.content-collections .content-streetwear-collections .header .subtitle {
+    font-size: 17px;
+}
+
+.content-collections .content-streetwear-collections .header .title {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: auto;
+}
+
+.content-collections .content-streetwear-collections .collection-body {
+    width: 100%;
+    height: 600px;
+    gap: 0;
+    margin-top: 20px;
+}
+
+.content-collections .content-streetwear-collections .collection-body .pic {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+}
+
+.content-collections .content-streetwear-collections .collection-body .pic::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s cubic-bezier(.2, .7, .2, 1);
+    z-index: -100;
+}
+
+.content-collections .content-streetwear-collections .collection-body .pic:hover::before {
+    transform: scale(1.05);
+}
+
+.content-collections .content-streetwear-collections .collection-body .pic-1 {
+    width: 40%;
+    height: 100%;
+}
+
+.content-collections .content-streetwear-collections .collection-body .pic-1::before {
+    background-image: url("../../../images/main/streetwear-1.jpg");
+}
+
+.content-collections .content-streetwear-collections .collection-body .pic-2 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+.content-collections .content-streetwear-collections .collection-body .pic-2::before {
+    background-image: url("../../../images/main/streetwear-2.jpg");
+}
+
+.content-collections .content-streetwear-collections .collection-body .pic-2 .visit-link {
+    padding: 50px 80px;
+}

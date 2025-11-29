@@ -1,6 +1,7 @@
 .content-collections .content-collections {
     width: 100%;
     padding: 60px 10%;
+    height: auto;
 }
 
 .content-collections .content-collections .collections-wrapper {
