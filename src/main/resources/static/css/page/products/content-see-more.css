@@ -1,0 +1,13 @@
+.content-products .content-see-more {
+    height: auto;
+}
+
+.content-products .content-see-more .see-more-button .main-button a {
+    background-color: transparent;
+    color: var(--main-color);
+}
+
+.content-products .content-see-more .see-more-button .main-button a:hover {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}

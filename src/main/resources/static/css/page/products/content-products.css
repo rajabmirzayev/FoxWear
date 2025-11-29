@@ -1,0 +1,7 @@
+.content-products .content-products {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}

@@ -1,6 +1,6 @@
 const visitLink = document.querySelectorAll(".visit-link a");
 
-visitLink.forEach(el=> {
+visitLink.forEach(el => {
     el.innerHTML = `
 Visit
 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -9,8 +9,10 @@ Visit
 `;
 })
 
-const productLink = document.querySelector(".product .product-link");
+const productLink = document.querySelectorAll(".product .product-link");
 
-productLink.addEventListener("click", () => {
-   document.location.href = "../page/product.html";
+productLink.forEach(el => {
+    el.addEventListener("click", () => {
+        document.location.href = "../page/product.html";
+    });
 });

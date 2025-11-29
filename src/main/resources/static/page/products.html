@@ -1,10 +1,1112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FoxWear | Homepage</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/page/products/content-start.css">
+    <link rel="stylesheet" href="/css/page/products/content-products.css">
+    <link rel="stylesheet" href="/css/page/products/content-see-more.css">
 </head>
 <body>
-products
+
+<div id="header"></div>
+
+<div class="content-products content-body flex-column-gap-0">
+    <div class="content-filter content">
+        <div class="header">
+            <h1>Filter</h1>
+        </div>
+        <div class="filter-form">
+            <form method="get">
+                <div class="top-content">
+                    <div class="category-filter filter-item">
+                        <label for="category">Category</label>
+                        <div class="select flex-row-gap-0">
+                            <select name="category" id="category">
+                                <option value="all">All</option>
+                                <option value="sport">Sport</option>
+                                <option value="summer">Summer</option>
+                                <option value="winter">Winter</option>
+                                <option value="accessories">Accessories</option>
+                            </select>
+                            <div class="down-arrow">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gender-filter filter-item">
+                        <label for="gender">Gender</label>
+                        <div class="select flex-row-gap-0">
+                            <select name="gender" id="gender">
+                                <option value="all">All</option>
+                                <option value="men">Men</option>
+                                <option value="women">Women</option>
+                            </select>
+                            <div class="down-arrow">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sort-by-filter filter-item">
+                        <label for="sort-by">Sort By</label>
+                        <div class="select flex-row-gap-0">
+                            <select name="sort-by" id="sort-by">
+                                <option value="date">Date</option>
+                                <option value="name">Name</option>
+                                <option value="price-low-to-high">Price (Low to High)</option>
+                                <option value="price-high-to-low">Price (High to Low)</option>
+                            </select>
+                            <div class="down-arrow">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="size-filter filter-item">
+                        <label for="size">Size</label>
+                        <div class="select flex-row-gap-0">
+                            <select name="size" id="size">
+                                <option value="all">All</option>
+                                <option value="xs">XS</option>
+                                <option value="s">S</option>
+                                <option value="m">M</option>
+                                <option value="l">L</option>
+                                <option value="xl">XL</option>
+                                <option value="2xl">2XL</option>
+                                <option value="3xl">3XL</option>
+                            </select>
+                            <div class="down-arrow">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-filter filter-item">
+                        <label for="min">Price</label>
+                        <div class="price-box">
+                            <input type="number" id="min" placeholder="min">
+                            <label for="max"></label>
+                            <input type="number" id="max" placeholder="max">
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-content">
+                    <label for="search"></label>
+                    <input type="search" name="search" id="search" placeholder="Search">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="content-products content">
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product flex-column-gap-10">
+            <div class="product-link flex-column-gap-10">
+                <div class="image"></div>
+                <div class="texts flex-row-gap-0">
+                    <div class="text flex-column-gap-10">
+                        <div class="header">Subheading</div>
+                        <div class="subtitle">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                    <div class="price flex-column-gap-0">
+                        <div class="old-price">19.99$</div>
+                        <div class="new-price">9.99$</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="like-button flex-row-gap-10">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        Add to fav
+                    </div>
+                </div>
+                <div class="add-to-cart flex-row-gap-10">
+                    <div class="text">
+                        Add to Cart
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-see-more content">
+        <div class="see-more-button flex-column-gap-0">
+            <div class="main-button">
+                <a href="">See More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer"></div>
+
+<script src="/js/main.js"></script>
+<script src="/js/layout.js"></script>
+<script src="/js/partials/header/link.js"></script>
+<script src="/js/partials/header/login.js"></script>
+<script src="/js/partials/header/left-bar-controller.js"></script>
 </body>
 </html>
