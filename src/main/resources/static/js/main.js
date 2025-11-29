@@ -13,6 +13,6 @@ const productLink = document.querySelectorAll(".product .product-link");
 
 productLink.forEach(el => {
     el.addEventListener("click", () => {
-        document.location.href = "../page/product.html";
+        document.location.href = "/page/product.html";
     });
 });
