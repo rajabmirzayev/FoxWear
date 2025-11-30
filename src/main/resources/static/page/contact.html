@@ -18,13 +18,135 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/page/contact/content-write-us.css">
+    <link rel="stylesheet" href="/css/page/contact/content-visit-us.css">
+    <link rel="stylesheet" href="/css/page/contact/content-social-links.css">
 </head>
 <body>
 
 <div id="header"></div>
 
-<div class="content-products content-body flex-column-gap-0">
-contact
+<div class="content-contact content-body flex-column-gap-0">
+    <div class="write-to-us-content content">
+        <div class="header">
+            <h1>Write to us</h1>
+        </div>
+        <div class="main flex-row-gap-10">
+            <div class="main-cont-1">
+                <form method="post" class="flex-column-gap-10">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="name" placeholder="Full Name" required/>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email Address" required/>
+                    <label for="phone">Phone Number</label>
+                    <span class="phone-wrapper">
+                    <span class="prefix flex-row-gap-0">
+                        <img src="/images/main/Azerbaijan_flag.svg" alt="Aze Flag">
+                        +994
+                    </span>
+                    <input type="tel" id="phone" placeholder="XX XXX XX XX" required/>
+                </span>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Message" required></textarea>
+                    <input type="submit" id="submit" value="Send">
+                </form>
+            </div>
+            <div class="line-vertical"></div>
+            <div class="main-cont-2">
+                <div class="address line flex-column-gap-10">
+                    <div class="header flex-row-gap-10">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-arrow"></i>
+                        </div>
+                        <div class="title">
+                            <p>Address</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>28 May street, Baku, Azerbaijan</p>
+                    </div>
+                </div>
+                <div class="phone line flex-column-gap-10">
+                    <div class="header flex-row-gap-10">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="title">
+                            <p>Phone</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>+994506762447</p>
+                    </div>
+                </div>
+                <div class="email line flex-column-gap-10">
+                    <div class="header flex-row-gap-10">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="title">
+                            <p>Email</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>rajabmirzayevv@gmail.com</p>
+                    </div>
+                </div>
+                <div class="working-hours line flex-column-gap-10">
+                    <div class="header flex-row-gap-10">
+                        <div class="icon">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <div class="title">
+                            <p>Working Hours</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>
+                            Mon–Fri: 09:00–19:00 <br>
+                            Sat–Sun: 10:00–17:00
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="visit-us-content content flex-column-gap-0">
+        <div class="header">
+            <h1>Visit Us</h1>
+        </div>
+        <div class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.428548542833!2d49.83069367623145!3d40.377193671446065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d0d71e9898b%3A0x2a9847f372425d29!2sIT%20Brains%20Academy-%20IT%20v%C9%99%20Proqramla%C5%9Fd%C4%B1rma%20kursu!5e0!3m2!1str!2saz!4v1764512951678!5m2!1str!2saz" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="social-links-content content flex-column-gap-0">
+        <div class="header">
+            <h1>Follow Us</h1>
+        </div>
+        <div class="subtitle">
+            <p>Stay updated with new drops, discounts and behind-the-scenes content.</p>
+        </div>
+        <div class="social-media flex-row-gap-0">
+            <div class="instagram link">
+                <a href="https://www.instagram.com/foxwear.az/" target="_blank" class="flex-row-gap-10">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>foxwear.az</p>
+                </a>
+            </div>
+            <div class="facebook link">
+                <a href="https://www.facebook.com/profile.php?id=61584125657859" target="_blank" class="flex-row-gap-10">
+                    <i class="fa-brands fa-facebook"></i>
+                    <p>Foxx Wearr</p>
+                </a>
+            </div>
+            <div class="twitter link">
+                <a href="https://x.com/foxwearaz" target="_blank" class="flex-row-gap-10">
+                    <i class="fa-brands fa-twitter"></i>
+                    <p>foxwearaz</p>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div id="footer"></div>

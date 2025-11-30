@@ -1,0 +1,120 @@
+.content-contact .write-to-us-content {
+    height: auto;
+}
+
+.content-contact .write-to-us-content .main {
+    height: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/*CLASS: main-cont-1*/
+.content-contact .write-to-us-content .main .main-cont-1 {
+    width: auto;
+    height: 100%;
+}
+
+.content-contact .write-to-us-content .main .main-cont-1 form {
+    width: 500px;
+    align-items: start;
+}
+
+.content-contact .write-to-us-content .main .main-cont-1 form input,
+.content-contact .write-to-us-content .main .main-cont-1 form .phone-wrapper,
+.content-contact .write-to-us-content .main .main-cont-1 #message {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+
+.content-contact .write-to-us-content .main .main-cont-1 form input:focus,
+.content-contact .write-to-us-content .main .main-cont-1 form .phone-wrapper:focus-within,
+.content-contact .write-to-us-content .main .main-cont-1 form #message:focus {
+    outline: none;
+    border: 1px solid #888;
+}
+
+.content-contact .write-to-us-content .main .main-cont-1 form input {
+}
+
+.content-contact .write-to-us-content .main .main-cont-1 form .phone-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 16px;
+}
+
+.content-contact .write-to-us-content .main .main-cont-1 form .phone-wrapper .prefix {
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.content-contact .write-to-us-content .main .main-cont-1 form .phone-wrapper .prefix img {
+    width: 30px;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
+.content-contact .write-to-us-content .main .main-cont-1 form .phone-wrapper #phone {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+}
+
+.content-contact .write-to-us-content .main .main-cont-1 form #message {
+    min-height: 100px;
+    max-height: 200px;
+    resize: vertical;
+}
+
+.content-contact .write-to-us-content .main .main-cont-1 form #submit {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s all cubic-bezier(.2, .7, .2, 1);
+}
+
+.content-contact .write-to-us-content .main .main-cont-1 form #submit:hover {
+    background-color: transparent;
+    color: var(--main-color);
+}
+
+/*CLASS: line-vertical*/
+.content-contact .write-to-us-content .main .line-vertical {
+    height: 350px;
+    width: 1px;
+    background-color: #ccc;
+}
+
+/*CLASS: main-cont-2*/
+.content-contact .write-to-us-content .main .main-cont-2 {
+    width: 40%;
+}
+
+.content-contact .write-to-us-content .main .main-cont-2 .line {
+    align-items: start;
+    margin-bottom: 30px;
+}
+
+.content-contact .write-to-us-content .main .main-cont-2 .line .header .title,
+.content-contact .write-to-us-content .main .main-cont-2 .line .header .icon {
+    font-size: 25px;
+}
+
+.content-contact .write-to-us-content .main .main-cont-2 .line .header .title {
+    font-weight: 500;
+}
+
+.content-contact .write-to-us-content .main .main-cont-2 .line .header .icon {
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.content-contact .write-to-us-content .main .main-cont-2 .line .text {
+    font-style: italic;
+}

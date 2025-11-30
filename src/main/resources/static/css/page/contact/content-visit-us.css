@@ -1,0 +1,12 @@
+.content-contact .visit-us-content .google-map {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.content-contact .visit-us-content .google-map iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+}

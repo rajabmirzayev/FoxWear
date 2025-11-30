@@ -1,0 +1,14 @@
+.content-contact .social-links-content {
+    gap: 20px;
+    height: auto;
+}
+
+.content-contact .social-links-content .social-media {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.content-contact .social-links-content .social-media a {
+    font-size: 25px;
+    color: #000;
+}
