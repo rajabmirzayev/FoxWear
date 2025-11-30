@@ -1,0 +1,41 @@
+.content-about .content-our-team {
+    height: auto;
+    gap: 70px;
+}
+
+.content-about .content-our-team .main {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.content-about .content-our-team .main .line-vertical {
+    width: 1px;
+    height: 200px;
+    background-color: #888;
+}
+
+.content-about .content-our-team .main .profile .image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.content-about .content-our-team .main .profile .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.content-about .content-our-team .main .profile .name {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.content-about .content-our-team .main .profile .description {
+    width: 300px;
+    text-align: center;
+}
