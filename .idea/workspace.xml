@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="feat: add faq's content">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="style: change height of  faq's">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/partials/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +149,7 @@
       <workItem from="1764420598577" duration="11845000" />
       <workItem from="1764445494022" duration="17813000" />
       <workItem from="1764518893652" duration="10103000" />
-      <workItem from="1764530062639" duration="980000" />
+      <workItem from="1764530062639" duration="1726000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added files, pictures, directories&#10;Added header.html for all pages">
       <option name="closed" value="true" />
@@ -374,15 +375,29 @@
       <option name="project" value="LOCAL" />
       <updated>1764531029574</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="style: change size of the h1 tags">
+      <option name="closed" value="true" />
+      <created>1764531234717</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1764531234717</updated>
+    </task>
+    <task id="LOCAL-00030" summary="style: change height of  faq's">
+      <option name="closed" value="true" />
+      <created>1764531333790</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1764531333790</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Responsiveness&#10;Added responsive design for header.html" />
-    <MESSAGE value="Added offer-bar&#10;Changed seme responsiveness&#10;Added footer.html (just file)&#10;Fixed some bugs" />
     <MESSAGE value="prepared for front-end codding" />
     <MESSAGE value="added homepage first main scene" />
     <MESSAGE value="added homepage products bar" />
@@ -406,6 +421,8 @@
     <MESSAGE value="feat: add &quot;our values&quot; content" />
     <MESSAGE value="feat: add &quot;our team&quot; content" />
     <MESSAGE value="feat: add faq's content" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add faq's content" />
+    <MESSAGE value="style: change size of the h1 tags" />
+    <MESSAGE value="style: change height of  faq's" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: change height of  faq's" />
   </component>
 </project>
