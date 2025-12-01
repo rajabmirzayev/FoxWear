@@ -1,0 +1,37 @@
+.content-register .text {
+    font-size: 150px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -10px;
+    line-height: 0.8;
+    text-wrap: nowrap;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    user-select: none;
+    -webkit-user-select: none;
+
+    overflow: hidden;
+
+    animation: animationForHeaderText 1.5s forwards 2s cubic-bezier(.2, .7, .2, 1);
+}
+
+.content-register .text .letter {
+    display: inline-block;
+    animation: animationTranslate 1s forwards 1s cubic-bezier(.2, .7, .2, 1);
+    transform: translate(0, 150px);
+    line-height: 0.8;
+}
+
+.content-register .text-white {
+    color: #fff;
+    transform: translate(0%, -50%);
+}
+
+.content-register .text-black {
+    color: #000;
+    z-index: -2;
+}

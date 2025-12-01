@@ -1,0 +1,17 @@
+.content-register .right-content .account-login .icon {
+    width: 70px;
+    height: 70px;
+    border: 3px solid #888;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s all cubic-bezier(.2, .7, .2, 1);
+}
+
+.content-register .right-content .account-login .icon:hover {
+    border: 3px solid #000;
+    transform: scale(1.1);
+}
+
+.content-register .right-content .account-login .icon i {
+    font-size: 35px;
+}

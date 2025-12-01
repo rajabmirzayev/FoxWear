@@ -18,21 +18,99 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/animations.css">
+    <link rel="stylesheet" href="/css/page/register/main.css">
+    <link rel="stylesheet" href="/css/page/register/main-text.css">
+    <link rel="stylesheet" href="/css/page/register/content-left.css">
+    <link rel="stylesheet" href="/css/page/register/content-right.css">
+    <link rel="stylesheet" href="/css/page/register/account-login.css">
 </head>
 <body>
-
-<div id="header"></div>
-
-<div class="content-products content-body flex-column-gap-0">
-register
+<div class="content-register content-body">
+    <div class="site-icon">
+        <div class="icon">
+            <img src="/images/logo/FOX-main-square-white.png" alt="Logo">
+        </div>
+        <div class="text-black text">
+            <div class="text-content">FoxWear.</div>
+        </div>
+    </div>
+    <div class="left-content flex-column-gap-10">
+        <div class="text-white text">
+            <div class="text-content">FoxWear.</div>
+        </div>
+        <div class="texts flex-column-gap-0">
+            <div class="title">
+                <p>Welcome!</p>
+            </div>
+            <div class="subtitle">
+                <p>Join FoxWear to track orders, save favorites and enjoy faster checkout.</p>
+            </div>
+        </div>
+    </div>
+    <div class="right-content flex-column-gap-0">
+        <div class="header el" style="--i:0;">
+            <h1>Create Your Account</h1>
+        </div>
+        <div class="account-login flex-row-gap-10 el" style="--i:1;">
+            <div class="apple-login icon flex-column-gap-0">
+                <i class="fa-brands fa-apple"></i>
+            </div>
+            <div class="google-login icon flex-row-gap-0">
+                <i class="fa-brands fa-google"></i>
+            </div>
+        </div>
+        <div class="selection-text el" style="--i:2;">
+            <p>or use your email for registration:</p>
+        </div>
+        <div class="register-form">
+            <form method="post" class="flex-column-gap-10">
+                <div class="name el" style="--i:3;">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Full Name" required>
+                </div>
+                <div class="email el" style="--i:4;">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="phone-number flex-row-gap-10 el" style="--i:5;">
+                    <div class="prefix-wrapper">
+                        <div class="image flex-column-gap-0">
+                            <img src="/images/main/Azerbaijan_flag.svg" alt="Azerbaijan Flag">
+                        </div>
+                        <div class="prefix">
+                            <p>+994</p>
+                        </div>
+                    </div>
+                    <div class="phone-in">
+                        <label for="phone"></label>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    </div>
+                </div>
+                <div class="password el" style="--i:6;">
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="confirm-password el" style="--i:7;">
+                    <label for="confirm-password"></label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+                </div>
+                <div class="terms flex-row-gap-10 el" style="--i:8;">
+                    <input type="checkbox" name="terms" id="terms">
+                    <label for="terms">I agree to the Terms & Conditions and Privacy Policy.</label>
+                </div>
+                <div class="submit el" style="--i:9;">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
 
-<div id="footer"></div>
-
 <script src="/js/main.js"></script>
-<script src="/js/layout.js"></script>
-<script src="/js/partials/header/link.js"></script>
-<script src="/js/partials/header/login.js"></script>
-<script src="/js/partials/header/left-bar-controller.js"></script>
+<script src="/js/pages/register/header-animation-controller.js"></script>
+<script src="/js/pages/register/terms-controller.js"></script>
+<script src="/js/pages/register/password-confirm.js"></script>
+<script src="/js/pages/register/icon-click.js"></script>
 </body>
 </html>

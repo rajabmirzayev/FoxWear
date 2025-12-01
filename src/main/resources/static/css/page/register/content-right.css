@@ -1,0 +1,93 @@
+.content-register .right-content {
+    width: 60%;
+    height: 100vh;
+    margin-left: auto;
+    gap: 30px;
+}
+
+.content-register .right-content .header h1 {
+    text-align: center;
+}
+
+.content-register .right-content .selection-text {
+    text-align: center;
+}
+
+.content-register .right-content .register-form input,
+.content-register .right-content .register-form .phone-number {
+    width: 500px;
+    height: 50px;
+    border: none;
+    background-color: #ddd;
+    padding: 0 30px;
+}
+
+.content-register .right-content .register-form input {
+    font-size: 17px;
+}
+
+.content-register .right-content .register-form input::placeholder {
+    color: #999;
+}
+
+.content-register .right-content .register-form input:focus {
+    outline: none;
+}
+
+.content-register .right-content .register-form .phone-number {
+    justify-content: start;
+}
+
+.content-register .right-content .register-form .phone-number .prefix-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.content-register .right-content .register-form .phone-number .prefix-wrapper .image img {
+    width: 30px;
+}
+
+.content-register .right-content .register-form .phone-number input {
+    background-color: transparent;
+    border: none;
+    width: 360px !important;
+    padding: 0 !important;
+}
+
+.content-register .right-content .register-form #terms {
+    display: inline;
+    width: auto;
+}
+
+.content-register .right-content .register-form .terms label {
+    display: inline;
+}
+
+.content-register .right-content .register-form .terms {
+    width: 500px;
+}
+
+.content-register .right-content .register-form #terms:checked ~ .submit input {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.content-register .right-content .register-form .submit input {
+    width: auto;
+    background-color: var(--main-color);
+    opacity: 0.3;
+    color: var(--secondary-color);
+    border-radius: 30px;
+    cursor: pointer;
+    pointer-events: none;
+    transition: 0.4s all cubic-bezier(.2,.7,.2,1);
+}
+
+.content-register .el {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(20px);
+    animation: animationTranslate 1.5s forwards cubic-bezier(.2, .7, .2, 1) calc(var(--i) * 0.1s + 3.5s);
+}

@@ -4,24 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="style: edit some styles for best view">
+    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="chore: change title of the all pages">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/animations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/register/account-login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/register/content-left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/register/content-right.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/register/main-text.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/register/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/accessories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/collections.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/collections.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/men.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/men.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/sport.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/sport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/streetwear/men.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/streetwear/men.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/streetwear/streetwear.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/streetwear/streetwear.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/streetwear/women.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/streetwear/women.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/summer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/summer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/winter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/winter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/collection/women.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/collection/women.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/register/header-animation-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/register/icon-click.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/register/password-confirm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/register/terms-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/main/category-images/register-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/main/register-background.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +34,8 @@
       <list>
         <option value="Class" />
         <option value="Enum" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -106,11 +101,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources/static/css/partials" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/images/main" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/page/collection/streetwear" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/css/page/homepage" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/css/partials/header" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/js/partials/header" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/page" />
     </key>
   </component>
   <component name="RunManager">
@@ -165,7 +160,9 @@
       <workItem from="1764420598577" duration="11845000" />
       <workItem from="1764445494022" duration="17813000" />
       <workItem from="1764518893652" duration="10103000" />
-      <workItem from="1764530062639" duration="7092000" />
+      <workItem from="1764530062639" duration="17094000" />
+      <workItem from="1764592639009" duration="181000" />
+      <workItem from="1764592827645" duration="6651000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added files, pictures, directories&#10;Added header.html for all pages">
       <option name="closed" value="true" />
@@ -423,15 +420,21 @@
       <option name="project" value="LOCAL" />
       <updated>1764543419447</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="chore: change title of the all pages">
+      <option name="closed" value="true" />
+      <created>1764543865289</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1764543865289</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added homepage products bar" />
-    <MESSAGE value="fixed error" />
     <MESSAGE value="Homepage edit&#10;added categories content&#10;added some functionalities&#10;fixed some bugs" />
     <MESSAGE value="Homepage edit&#10;added about us content&#10;added contact content" />
     <MESSAGE value="Homepage edit&#10;added review content&#10;changed about us text content&#10;Homepage already ready" />
@@ -455,6 +458,8 @@
     <MESSAGE value="style: change height of  faq's" />
     <MESSAGE value="chore: change social media links in footer.html" />
     <MESSAGE value="style: edit some styles for best view" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: edit some styles for best view" />
+    <MESSAGE value="chore:" />
+    <MESSAGE value="chore: change title of the all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: change title of the all pages" />
   </component>
 </project>

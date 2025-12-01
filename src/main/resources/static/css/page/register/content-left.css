@@ -1,0 +1,43 @@
+.content-register .left-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 50%;
+    height: 100vh;
+    padding: 200px 10%;
+
+    justify-content: end;
+
+    background-image: url("../../../images/main/register-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 100vh;
+
+    overflow: hidden;
+    z-index: -1;
+
+    animation: animationBackgroundPosition 2s forwards cubic-bezier(.2, .7, .2, 1),
+    animationForRegisterPageBackground 2s forwards cubic-bezier(.2, .7, .2, 1) 2s;
+}
+
+.content-register .left-content .texts {
+    color: #fff;
+    text-align: center;
+    gap: 30px;
+}
+
+.content-register .left-content .texts .title {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 0.8;
+    opacity: 0;
+    transform: translate(0, 50px);
+    animation: animationTranslate 1s forwards cubic-bezier(.2, .7, .2, 1) 3.3s;
+}
+
+.content-register .left-content .texts .subtitle {
+    opacity: 0;
+    transform: translate(0, 100px);
+    animation: animationTranslate 1s forwards cubic-bezier(.2, .7, .2, 1) 3.3s;
+}
