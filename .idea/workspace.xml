@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="chore: change title of the all pages">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/animations.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/register/account-login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/register/content-left.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/register/content-right.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/register/main-text.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/register/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/register/header-animation-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/register/icon-click.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/register/password-confirm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/register/terms-controller.js" afterDir="false" />
+    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="feat: add register page with animations">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/product/content-product-info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/product/product-quantity-controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/main/category-images/register-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/main/register-background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +26,8 @@
         <option value="Class" />
         <option value="Enum" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -162,7 +153,7 @@
       <workItem from="1764518893652" duration="10103000" />
       <workItem from="1764530062639" duration="17094000" />
       <workItem from="1764592639009" duration="181000" />
-      <workItem from="1764592827645" duration="6651000" />
+      <workItem from="1764592827645" duration="13080000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added files, pictures, directories&#10;Added header.html for all pages">
       <option name="closed" value="true" />
@@ -428,14 +419,21 @@
       <option name="project" value="LOCAL" />
       <updated>1764543865289</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="feat: add register page with animations">
+      <option name="closed" value="true" />
+      <created>1764603497441</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1764603497441</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Homepage edit&#10;added categories content&#10;added some functionalities&#10;fixed some bugs" />
     <MESSAGE value="Homepage edit&#10;added about us content&#10;added contact content" />
     <MESSAGE value="Homepage edit&#10;added review content&#10;changed about us text content&#10;Homepage already ready" />
     <MESSAGE value="feat: add products.html content" />
@@ -460,6 +458,7 @@
     <MESSAGE value="style: edit some styles for best view" />
     <MESSAGE value="chore:" />
     <MESSAGE value="chore: change title of the all pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: change title of the all pages" />
+    <MESSAGE value="feat: add register page with animations" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add register page with animations" />
   </component>
 </project>

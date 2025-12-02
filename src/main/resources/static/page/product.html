@@ -18,13 +18,112 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/page/product/content-product-info.css">
 </head>
 <body>
 
 <div id="header"></div>
 
-<div class="content-products content-body flex-column-gap-0">
-product
+<div class="content-product content-body flex-column-gap-0">
+    <div class="content-product-info content flex-column-gap-10">
+        <div class="breadcrumb flex-row-gap-0">
+            <a href="/">Home</a>
+            <span>></span>
+            <a href="/page/products.html">Products</a>
+            <span>></span>
+            <a href="/page/collection/men.html">Men</a>
+            <span>></span>
+            <a href="/page/product.html">Product</a>
+        </div>
+        <div class="info flex-row-gap-0">
+            <div class="main-picture">
+            </div>
+            <div class="details">
+                <div class="title flex-row-gap-0">
+                    <div class="product-name">
+                        <p>Product Name</p>
+                    </div>
+                    <div class="add-fav-button">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="category">Category Name</div>
+                <div class="price flex-row-gap-10">
+                    <div class="old-price">19.99$</div>
+                    <div class="new-price">9.99$</div>
+                </div>
+                <div class="stars flex-row-gap-10">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <hr>
+                <div class="title">
+                    <p>Color</p>
+                </div>
+                <div class="colors flex-row-gap-10">
+                    <div class="color-black color"></div>
+                    <div class="color-red color"></div>
+                    <div class="color-blue color"></div>
+                </div>
+                <div class="title">
+                    <p>Size</p>
+                </div>
+                <div class="sizes flex-row-gap-10">
+                    <div class="size size-xs">
+                        <p>XS</p>
+                    </div>
+                    <div class="size size-xs">
+                        <p>S</p>
+                    </div>
+                    <div class="size size-xs">
+                        <p>M</p>
+                    </div>
+                    <div class="size size-xs">
+                        <p>L</p>
+                    </div>
+                    <div class="size size-xs">
+                        <p>XL</p>
+                    </div>
+                    <div class="size size-xs">
+                        <p>2XL</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="buttons flex-row-gap-0">
+                    <div class="product-quantity flex-column-gap-0">
+                        <div class="quantity-wrapper flex-row-gap-0">
+                            <button class="qty-btn" id="qty-btn-decrease">-</button>
+                            <span class="qty-value" id="qty-value">1</span>
+                            <button class="qty-btn" id="qty-btn-increase">+</button>
+                        </div>
+                    </div>
+                    <div class="add-to-cart flex-column-gap-0">
+                        <p>Add to Cart</p>
+                    </div>
+                </div>
+                <div class="description">
+                    <b>Description</b>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Animi dicta exercitationem iure labore minus porro ratione
+                        rerum sunt temporibus voluptatum! Dignissimos eveniet expedita
+                        facilis fugit, itaque laborum magnam, modi nam nemo nihil
+                        nobis placeat quaerat qui quibusdam quisquam, repellendus
+                        sunt veritatis. Ab fugiat illum nisi omnis possimus, quisquam
+                        reiciendis vitae! Cum debitis deserunt dolor molestiae nesciunt
+                        perferendis possimus quaerat sunt vel! A accusantium dolor eveniet,
+                        exercitationem harum magnam neque quo reiciendis repellat similique,
+                        soluta voluptatibus? Consequatur deleniti dolore ea exercitationem
+                        maxime nemo pariatur ullam veritatis. Corporis cupiditate est eum,
+                        harum id ipsam, itaque neque quo ratione saepe similique, totam voluptate?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div id="footer"></div>
@@ -34,5 +133,6 @@ product
 <script src="/js/partials/header/link.js"></script>
 <script src="/js/partials/header/login.js"></script>
 <script src="/js/partials/header/left-bar-controller.js"></script>
+<script src="/js/pages/product/product-quantity-controller.js"></script>
 </body>
 </html>
