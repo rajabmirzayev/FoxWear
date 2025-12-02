@@ -1,0 +1,21 @@
+.content-product .content-similar-products {
+    width: auto;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-product .content-similar-products .header {
+    align-items: start;
+}
+
+.content-product .content-similar-products .header h1 {
+    width: 100%;
+    text-align: left;
+    font-size: 40px;
+}
+
+.content-product .content-similar-products .products-wrapper {
+    width: 1170px;
+    justify-content: space-between;
+}
