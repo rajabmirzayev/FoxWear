@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="feat: add similar products in product.html">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/product/content-reviews.css" afterDir="false" />
+    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="feat: finish product.html">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/cart/content-cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/cart/content-order-summary.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/products/category-men.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/cart/link-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/cart/product-quantity-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/cart/test-database-cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/payment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/cart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +31,8 @@
         <option value="Class" />
         <option value="Enum" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -57,34 +63,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Gradle.Build FoxWear.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.FoxWearApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rcbmirzyev/Documents/Projects/FoxWear/src/main/resources/static/images/main/category-images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.Build FoxWear.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.product-quantity-controller.js.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.FoxWearApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/rcbmirzyev/Documents/Projects/FoxWear/src/main/resources/static/images/products",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/images/products" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/images/main/category-images" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/images/main" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/images/test" />
@@ -98,14 +106,9 @@
       <recent name="$PROJECT_DIR$/src/main/resources/static/js/partials/header" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="FoxWearApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="FoxWear.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.foxwear.foxwear.FoxWearApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Spring Boot.FoxWearApplication">
+    <configuration name="product-quantity-controller.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/resources/static/js/pages/cart/product-quantity-controller.js" working-dir="$PROJECT_DIR$/src/main/resources/static/js/pages/cart">
+      <method v="2" />
     </configuration>
     <configuration name="FoxWearApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -115,6 +118,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FoxWearApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="FoxWear.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.foxwear.foxwear.FoxWearApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.product-quantity-controller.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -152,7 +168,11 @@
       <workItem from="1764518893652" duration="10103000" />
       <workItem from="1764530062639" duration="17094000" />
       <workItem from="1764592639009" duration="181000" />
-      <workItem from="1764592827645" duration="18493000" />
+      <workItem from="1764592827645" duration="24059000" />
+      <workItem from="1764711010501" duration="60000" />
+      <workItem from="1764711079250" duration="10726000" />
+      <workItem from="1764916066512" duration="5145000" />
+      <workItem from="1764960924748" duration="644000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added files, pictures, directories&#10;Added header.html for all pages">
       <option name="closed" value="true" />
@@ -442,14 +462,21 @@
       <option name="project" value="LOCAL" />
       <updated>1764654185259</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="feat: finish product.html">
+      <option name="closed" value="true" />
+      <created>1764681742184</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1764681742184</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: add products.html content" />
     <MESSAGE value="ui: change code structure in all pages" />
     <MESSAGE value="feat: add collections grid in collections.html" />
     <MESSAGE value="ui: add text color to collections title" />
@@ -474,6 +501,7 @@
     <MESSAGE value="feat: add register page with animations" />
     <MESSAGE value="feat: add product info in product.html" />
     <MESSAGE value="feat: add similar products in product.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add similar products in product.html" />
+    <MESSAGE value="feat: finish product.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: finish product.html" />
   </component>
 </project>

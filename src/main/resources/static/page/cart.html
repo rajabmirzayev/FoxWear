@@ -18,13 +18,37 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/page/cart/content-cart.css">
+    <link rel="stylesheet" href="/css/page/cart/content-order-summary.css">
 </head>
 <body>
 
 <div id="header"></div>
 
-<div class="content-products content-body flex-column-gap-0">
-cart
+<div class="content-cart content-body flex-column-gap-0">
+    <div class="content-main">
+        <div class="left-cont">
+            <div class="breadcrumb">
+                <span class="brc-passed"><a href="cart.html">Cart</a></span>
+                <span>></span>
+                <span class="brc-next"><a href="checkout.html">Shipping</a></span>
+                <span>></span>
+                <span class="brc-next"><a href="payment.html">Payment</a></span>
+            </div>
+            <div class="info flex-row-gap-0">
+                <p class="text-1">Products</p>
+                <p class="text-2">Total</p>
+            </div>
+            <hr>
+            <div class="product-wrapper">
+            </div>
+            <p>Need help? <a href="contact.html">Contact us</a></p>
+        </div>
+        <div class="right-cont">
+            <div class="content-order-summary">
+            </div>
+        </div>
+    </div>
 </div>
 
 <div id="footer"></div>
@@ -34,5 +58,8 @@ cart
 <script src="/js/partials/header/link.js"></script>
 <script src="/js/partials/header/login.js"></script>
 <script src="/js/partials/header/left-bar-controller.js"></script>
+<script src="/js/pages/cart/product-quantity-controller.js"></script>
+<script src="/js/pages/cart/test-database-cart.js"></script>
+<script src="/js/pages/cart/link-controller.js"></script>
 </body>
 </html>
