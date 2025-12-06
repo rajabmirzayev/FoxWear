@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="feat: finish cart.html">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/checkout/content-main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/checkout/content-your-cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/checkout/style-checkout-form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/checkout/cart-products-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/checkout/checkout-totals-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/checkout/link-controller.js" afterDir="false" />
+    <list default="true" id="d488f56d-8710-47b0-8bac-e4b76fe526c2" name="Changes" comment="feat: finish checkout.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pages/cart/test-database-cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/cart/test-database-cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/page/checkout/content-your-cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/page/checkout/content-your-cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pages/checkout/link-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/checkout/link-controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/page/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/page/checkout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,33 +58,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Gradle.Build FoxWear.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.product-quantity-controller.js.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.FoxWearApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rcbmirzyev/Documents/Projects/FoxWear/src/main/resources/static/images/products",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Gradle.Build FoxWear.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.product-quantity-controller.js.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.FoxWearApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rcbmirzyev/Documents/Projects/FoxWear/src/main/resources/static/images/products&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/static/images/products" />
@@ -99,11 +94,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources/static/css/partials" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/js/pages/shipping/checkout" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/js/pages/shipping" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/images/main" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/page/collection/streetwear" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/css/page/homepage" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/css/partials/header" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/js/partials/header" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.FoxWearApplication">
@@ -172,7 +167,8 @@
       <workItem from="1764711010501" duration="60000" />
       <workItem from="1764711079250" duration="10726000" />
       <workItem from="1764916066512" duration="5145000" />
-      <workItem from="1764960924748" duration="11231000" />
+      <workItem from="1764960924748" duration="12220000" />
+      <workItem from="1765022875445" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added files, pictures, directories&#10;Added header.html for all pages">
       <option name="closed" value="true" />
@@ -478,14 +474,32 @@
       <option name="project" value="LOCAL" />
       <updated>1764961710786</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="feat: finish checkout.html">
+      <option name="closed" value="true" />
+      <created>1765015162517</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1765015162517</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: add collections grid in collections.html" />
     <MESSAGE value="ui: add text color to collections title" />
     <MESSAGE value="feat: add streetwear page, men streetwear page, women streetwear page&#10;feat: add streetwear collection to collections.html" />
     <MESSAGE value="feat: add &quot;most liked products&quot; to collections.html&#10;&#10;fix: fix product link open problem" />
@@ -510,6 +524,7 @@
     <MESSAGE value="feat: add similar products in product.html" />
     <MESSAGE value="feat: finish product.html" />
     <MESSAGE value="feat: finish cart.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: finish cart.html" />
+    <MESSAGE value="feat: finish checkout.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: finish checkout.html" />
   </component>
 </project>

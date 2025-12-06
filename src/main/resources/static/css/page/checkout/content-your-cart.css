@@ -141,7 +141,7 @@
     font-weight: 700;
 }
 
-.content-checkout .content-main .right-cont .content-cart .totals-wrapper #btn-checkout {
+.content-checkout .content-main .right-cont .content-cart .totals-wrapper #btn-payment {
     height: 40px;
     margin-top: 10px;
     font-size: 15px;
@@ -154,7 +154,7 @@
     transition: 0.4s all cubic-bezier(.2, .7, .2, 1);
 }
 
-.content-checkout .content-main .right-cont .content-cart .totals-wrapper #btn-checkout:hover {
+.content-checkout .content-main .right-cont .content-cart .totals-wrapper #btn-payment:hover {
     background-color: transparent;
     color: var(--main-color);
 }
